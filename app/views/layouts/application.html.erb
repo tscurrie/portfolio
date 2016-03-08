@@ -7,6 +7,76 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/"><img class ="navIcon" ><a href ='/'class="navbar-brand">Thomas Currie</a>
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+        	<li><%= link_to "Profile"%></li>
+        	<li><%= link_to "Log Out"%></li>
+        	<li><%= link_to "Create Account"%></li>
+        	<li><%= link_to "Log In"%></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<div class="projects">
+  <div class="jumbotron">
+        <div class="container-fluid">
+          <div id="text"><h1>Welcome</h1>
+          <h3>Thomas Shelby Currie</h3>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h1>Project 0</h1>
+                <div class="project-image">
+                  <a href=""><img src="http://vignette4.wikia.nocookie.net/dictionary-answers/images/9/9a/Cool_Zebra_Painting.jpg/revision/latest?cb=20140824040419" class="img-rounded"/></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <h1>Project 1</h1>
+                <div class="project-image">
+                  <a href=""><img src="http://designbump.com/wp-content/uploads/2014/07/Cool-HD-Wallpaper-5.jpg" class="img-rounded"/></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <h1>Project 2</h1>
+                <div class="project-image">
+                  <a href=""><img src="https://pbs.twimg.com/profile_images/378800000553651991/ac5d33362645c4f415a7933d3c296d70_400x400.jpeg" class="img-rounded"/></a>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+              <h1>Vagabond</h1>
+                <div class="project-image">
+                  <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpcE9MHiNQD8SVXdBh-u-7EC2cdFmSQ4zKXGNkFvY4E1sJRvyk" class="img-rounded"/></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+              <h1>EquipSahre</h1>
+                <div class="project-image">
+                  <a href=""><img src="http://1.bp.blogspot.com/-033dFER3-lM/UPUiYWe7qgI/AAAAAAAACd0/HusbFrIJnSU/s1600/Cool_Background_Wallpapers_wallpaper.jpg" class="img-rounded"/></a>
+                </div>
+            </div>
+          </div>
+        </div>
+</div>
 
 <%= yield %>
 
