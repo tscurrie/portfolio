@@ -30,7 +30,7 @@
 .container-fluid {
 }
 .jumbotron {
-  background: url(http://i.imgur.com/u6yNeJB.jpg) no-repeat center center;
+  background: url(http://i.imgur.com/jqob1OM.jpg) no-repeat center center;
     -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -41,5 +41,5 @@
 
 .project-image a img {
   height: 200px;
-  width: 200px;
+  width: 300px;
 }
