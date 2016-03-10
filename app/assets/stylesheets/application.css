@@ -41,6 +41,31 @@
 
 }
 
+.jumbotron-about {
+  background: url(http://i.imgur.com/dmJg20b.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      text-align: center;
+      height: 800px;
+}
+
+/*.about-me {
+  border: solid black 1px;
+  color: white;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}*/
+
+.project-title {
+  text-align: center;
+}
+
 .profile-pic img {
   height: 200px;
   width: 200px;
@@ -49,4 +74,11 @@
 .project-image a img {
   height: 200px;
   width: 300px;
+}
+
+.super-images img {
+  margin-left: 25%;
+  height: 600px;
+  width: 600px;
+  margin-top: 20px;
 }
