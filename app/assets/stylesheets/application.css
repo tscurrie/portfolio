@@ -27,7 +27,8 @@
 
 }
 
-.container-fluid {
+.navbar-static-top {
+  margin-bottom: 0;
 }
 .jumbotron {
   background: url(http://i.imgur.com/jqob1OM.jpg) no-repeat center center;
@@ -35,8 +36,14 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      text-align: center;
       height: 800px;
 
+}
+
+.profile-pic img {
+  height: 200px;
+  width: 200px;
 }
 
 .project-image a img {
